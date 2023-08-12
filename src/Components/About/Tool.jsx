@@ -5,7 +5,6 @@ import {
   SiSlack,
   SiVercel,
   SiMacos,
-  SiVscodium,
 } from "react-icons/si";
 
 function Tool() {
