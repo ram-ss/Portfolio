@@ -36,3 +36,11 @@ code {
     height: 100%;
     z-index: -1;
 }
+
+.Modal {
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+}

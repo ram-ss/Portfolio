@@ -12,9 +12,9 @@ function About() {
     <div className='w-full'>
         <Navbar/>
         <Particle/>
-        <div className='flex justify-between items-center mx-auto w-11/12'>
+        <div className='flex lg:flex-row flex-col justify-between items-center mx-auto w-11/12'>
             <AboutCard/>
-            <img src={about} height={"500px"} width={"500px"} className=' opacity-90 rounded-md' />
+            <img src={about} height={"500px"} width={"500px"} className='mt-[10px] opacity-90 rounded-md' />
         </div>
         <Skills/>
         <Tool/>

@@ -14,10 +14,10 @@ const Home = () => {
         <Navbar/>
         <Particle/>
         {/* section 1 */}
-        <div className="mx-auto w-11/12 h-full flex items-center justify-between mt-[90px]">
+        <div className="mx-auto w-11/12 h-full flex flex-col xl:flex-row gap-8 items-center justify-between mt-[90px]">
           <div className="text-white text-xl font-bold flex flex-col gap-10 ">
             <p className="text-[3em]">Hi There!{"  "}<span className="wave">👋🏻</span></p>
-            <p className="text-[3em] mb-8 mt-6">I'M <span className="text-green-400">RAM SWAROOP SAHANI</span></p>
+            <div className="text-[3em] mb-8 mt-6 flex flex-col xl:flex-row xl:gap-2 gap-5"><div>I'M</div> <div className="text-green-400 leading-[3.5rem] xl:leading-[2rem]">RAM SWAROOP SAHANI</div></div>
             <TypeAnimation
             sequence={[
               'Full Stack Developer',
@@ -40,7 +40,7 @@ const Home = () => {
           </div>
         </div>
         {/* section 2 */}
-        <div className="flex text-white h-full mx-auto w-11/12 mt-[310px]">
+        <div className="flex flex-col xl:flex-row items-center justify-center text-white h-full mx-auto w-11/12 mt-10 xl:mt-[310px]">
             <div>
               <p className="text-[3em] text-center">LET ME <samp className="text-green-400">INTRODUCE</samp> MYSELF</p>
               <div className="flex flex-col gap-10 mt-10  text-xl max-w-[1024px]">
@@ -50,12 +50,12 @@ const Home = () => {
                 <p>Whenever possible, I also apply my passion for developing products with <span className="text-green-400">Node.js</span> and <span className="text-green-400">Modern Javascript Library and Frameworks</span>  like <span className="text-green-400">React.js and Next.js</span></p>
               </div>
             </div>
-            <div className="rounded-md w-fit m-10 bg-white bg-opacity-20">
+            <div className="rounded-md w-fit m-10 bg-white bg-opacity-20 ">
               <img src={image2} alt="logo" height="520px" width="520px" className=" object-fill"/>
             </div>
         </div>
         {/* find me section */}
-        <div className="text-white mt-32 flex flex-col items-center justify-center gap-2">
+        <div className="text-white mt-10 xl:mt-32 flex flex-col items-center justify-center gap-2">
           <p className="text-[3em]">FIND ME ON</p>
           <p className="text-md">Feel free to <span className="text-green-400">connect</span> with me</p>
           <div className="flex gap-5 text-2xl mt-2">

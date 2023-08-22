@@ -6,7 +6,7 @@ function NavLink({link,iconName}) {
 
   return (
         <Link to={link.link}>
-        <div className='flex items-center justify-center gap-2 font-semibold text-white relative group'>
+        <div className='w-fit flex items-center justify-center gap-2 font-semibold text-white relative group'>
             <Icon/>
             <p>
                 <span className=''>{link.name}</span>

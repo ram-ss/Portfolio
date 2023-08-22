@@ -16,7 +16,7 @@ function Project() {
         <div className='flex flex-col justify-center items-center gap-5 text-white'>
             <p className='text-[3em]'>My Recent <span className='text-green-400'>Works</span></p>
             <p className='text-xl'>Here are a few projects I've worked on recently.</p>
-            <div className='grid grid-cols-3 gap-10 mx-[100px] mt-8'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10 mx-[100px] mt-8'>
                 <ProjectCard
                 imgPath={image1}
                 title="Study Infinity"
